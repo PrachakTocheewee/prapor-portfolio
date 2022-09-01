@@ -1,0 +1,74 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	background: rgb(0, 5, 36);
+	background: linear-gradient(360deg, rgba(0, 5, 36, 1) 0%, rgba(9, 41, 121, 1) 35%, rgba(189, 0, 255, 1) 100%);
+
+}
+
+.logolink {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.link {
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-left: 1.5rem;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+/*
+	&:focus,
+	&:hover {
+		color: var(--c-blue);
+	}*/
+}
+
+.monogram {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3em;
+	height: 3em;
+	margin-right: 0.75rem;
+	color: #46b4ff;
+	font-weight: 900;
+	font-size: larger;
+	letter-spacing: -0.125rem;
+	border: 3px solid currentColor;
+	border-radius: 50%;
+}
+
+.social {
+	display: flex;
+	margin-left: auto;
+	justify-content: space-between;
+
+	/*+.social {
+		margin-left: 0.75rem;
+	}*/
+}
+
+.socialicon {
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	fill: var(--t-subdue);
+	transition: fill linear 150ms;
+
+	/*&:hover {
+		fill: var(--t-active);
+	}*/
+}
+
+

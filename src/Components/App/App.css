@@ -1,0 +1,22 @@
+* {
+  color: #e4e6f1;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+  
+
+}
+
+.area {
+  display: block;
+  max-height: 100vh;
+  margin: 0px 50px;
+  padding: 0px 50px;
+
+ 
+}
+
+.information {
+  margin: 20px;
+  padding: 20px;
+}

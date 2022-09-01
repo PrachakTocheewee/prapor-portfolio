@@ -1,0 +1,32 @@
+.sectionTitle {
+    font-weight: 700;
+    font-size: var(--f-u6);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.sectionSubTitle {
+    font-weight: 500;
+    font-size: var(--f-u5);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.projectlink {
+    font-weight: 400;
+    font-size: var(--f-u4);
+}
+
+.btnproject {
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
