@@ -5,9 +5,9 @@ function Footer() {
   return (
     <div className="footer">
       <div className="gotop">
-        <div className="role">
+        <div className="">
           <a href="#top">
-            <button>Go to top</button>
+            <button className="btngotop">Go to top</button>
           </a>
         </div>
       </div>

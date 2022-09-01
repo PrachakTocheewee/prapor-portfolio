@@ -10,8 +10,10 @@
 .area {
   display: block;
   max-height: 100vh;
+  /*
   margin: 0px 50px;
   padding: 0px 50px;
+  */
 
  
 }

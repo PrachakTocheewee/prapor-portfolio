@@ -1,6 +1,6 @@
 .footer {
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 2rem;
     padding-right: 2rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
@@ -26,7 +26,7 @@
 	width: 2rem;
 	height: 2rem;
 }*/
-
+/*
 .role {
     position: relative;
     display: inline-block;
@@ -38,9 +38,21 @@
     padding: 0.25em 0.5em;
     z-index: 2;
 }
-
+*/
 .gotop {
     margin: 30px;
     display: flex;
     justify-content: center;
+}
+.btngotop{
+    background-color: rgba(126, 101, 207, 1);
+    border: none;
+    color: white;
+    border-color: lavender;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }

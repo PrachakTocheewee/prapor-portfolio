@@ -77,7 +77,7 @@
     align-items: flex-start;
     justify-content: center;
 
-    margin: 40px 40px;
+    margin: 10px 40px;
 
     @media (min-width: $w-s) {
         padding-left: 4rem;
