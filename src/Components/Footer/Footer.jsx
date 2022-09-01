@@ -11,10 +11,9 @@ function Footer() {
           </a>
         </div>
       </div>
-      &copy; {new Date().getFullYear()} Prachak Tocheewee
-      <p className="byline">
-        {' '}
-        ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+      <div>&copy; {new Date().getFullYear()} Prachak Tocheewee</div>
+      <p className="">
+        ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
       </p>
     </div>
   )

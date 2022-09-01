@@ -9,6 +9,7 @@ import Skills from '../Skills/Skills'
 import Testimonials from '../Testimonials/Testimonials'
 import Footer from '../Footer/Footer'
 import Education from '../Education/Education'
+import Interests from '../Interests/Interests'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         {/*<About />*/}
         <Projects />
         <Skills />
+        <Interests />
         <Testimonials />
         <Contact />
       </div>

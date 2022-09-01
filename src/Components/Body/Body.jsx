@@ -4,7 +4,7 @@ import Cvphoto from './Cv-photo.jpg'
 
 function Body() {
   return (
-    <div>
+    <div className="Body">
       <header className="hero">
         <img
           width="1600"
@@ -34,88 +34,19 @@ function Body() {
             </span>
           </div>
           <img className="myPhoto" src={Cvphoto} />
-          <p className="statement">
-            Hello! I am Por
-            <br /> I fell in love with programming
-            <br /> I am a highly analytical individual with a systematic
-            thinking process who eagers to learn new things. With background in
-            mathematics, statistics, and data analysis, I would like to apply my
-            background knowledge to pursue my career as a Software Developer.
-          </p>
+          <div className="statement">
+            <span className="bold">Hello!</span> I am Por and I fell in love
+            with programming.
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;I am a highly analytical individual with a
+              systematic thinking process who eagers to learn new things. With
+              background in mathematics, statistics, and data analysis, I would
+              like to apply my background knowledge to pursue my career as a
+              Software Developer.
+            </p>
+          </div>
         </div>
       </header>
-      <main className="wrapper">
-        <div className="grid">
-          <div className="section">
-            <h3 className="sectionTitle" id="skills">
-              Technical Skills
-            </h3>
-            <p className="bio"></p>
-            <ul className="bio">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Git & GitHub</li>
-              <li>Data Analysis with SPSS, R , and Microsoft Excel</li>
-              <li>JavaScript</li>
-              <li>C++</li>
-              <li>ReactJS</li>
-              <li>NodeJS</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-
-          <div className="section">
-            <h3 className="sectionTitle">Soft Skills</h3>
-            <p className="bio"></p>
-            <ul className="bio">
-              <li>Agile & Scrum Methodology</li>
-              <li>Growth Mindset</li>
-              <li>Effective Problem Solving</li>
-              <li>Knowledge Enthusiast for Skills Improvement</li>
-            </ul>
-          </div>
-
-          <div className="section">
-            <h3 className="sectionTitle" id="contact">
-              Contact
-            </h3>
-            <p className="bio"></p>
-            <ul className="bio">
-              <li>
-                <span className="bold">Mobile</span> 0860025138
-              </li>
-              <li>
-                <span className="bold">E-mail</span>
-                prachak.toc@gmail.com
-              </li>
-              <li>
-                <span className="bold">GitHub</span>
-                github.com/PrachakTocheewee
-              </li>
-
-              <li>
-                <span className="bold">Address</span>
-                22 Moo.5, Tambon Banbua , Kraset Sombun, Chaiyaphum, 36120 ,
-                Thailand
-              </li>
-            </ul>
-          </div>
-
-          <div className="section">
-            <h3 className="sectionTitle" id="interests">
-              Interests
-            </h3>
-            <p className="bio"></p>
-            <ul className="bio">
-              <li>Websites Development</li>
-              <li>Data Science</li>
-              <li>Software Tester</li>
-            </ul>
-          </div>
-        </div>
-      </main>
     </div>
   )
 }

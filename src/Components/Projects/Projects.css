@@ -1,16 +1,5 @@
-.sectionTitle {
-    font-weight: 700;
-    font-size: var(--f-u6);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-decoration: underline;
-}
-
-.sectionSubTitle {
-    font-weight: 500;
-    font-size: var(--f-u5);
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+.Project{
+    margin:0;
 }
 
 .projectlink {
@@ -26,7 +15,10 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.25rem;
     margin-top: 1em;
     margin-bottom: 0.5em;
+}
+.des{
+    font-size: 1.254rem;
 }

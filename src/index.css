@@ -2,7 +2,7 @@
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -71,4 +71,29 @@ button:focus-visible {
   }
 }
 
+ul li {
 
+  margin: 5px;
+
+  
+}
+
+.bold {
+  font-weight: 700;
+  color: pink;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.sectionSubTitle {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}

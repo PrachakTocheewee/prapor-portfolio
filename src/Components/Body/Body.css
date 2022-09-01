@@ -15,7 +15,8 @@
 .img {
     display: block;
     width: 100%;
-    height: 600px;
+    height: auto;
+    
 }
 
 .myPhoto {
@@ -24,8 +25,8 @@
     justify-items: center;
     align-items: center;
     border-radius: 5px;
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 35%;
+    max-height: 35%;
     margin: 20px;
     margin-top: 30px;
     padding: 10px;
@@ -34,8 +35,16 @@
 }
 .statement{
     font-weight: 500;
-    margin-top: 1.5rem;
-        margin-bottom: 0;
+    font-size:1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    width: 90%;
+    padding: 2rem;
+
+    background: rgb(126, 101, 207);
+    background: linear-gradient(11deg, rgba(126, 101, 207, 1) 0%, rgba(126, 101, 207, 1) 50%, rgba(0, 212, 255, 1) 100%);
+
 }
 
 .gradient,
@@ -67,7 +76,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 2rem;
+
+    margin: 40px 40px;
 
     @media (min-width: $w-s) {
         padding-left: 4rem;
@@ -76,7 +86,7 @@
 
 .title {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 2rem;
     margin-top: 0;
     color: white;
@@ -90,7 +100,7 @@
 .subtitle {
     display: block;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.5rem;
     letter-spacing: -0.0625em;
     color: white;
     margin-bottom: 2rem;
@@ -106,7 +116,7 @@
 
 .sectionTitle {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 48x;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-decoration: underline;
@@ -129,7 +139,7 @@
 }
 
 .btnproject {
-    background-color: #008cba;
+    background-color:powderblue;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -145,7 +155,8 @@
     position: relative;
     display: inline-block;
     font-weight: 900;
-    color: var(--t-bg);
+    font-size: 1.25rem;
+    
     background-color: var(--t-fg);
     border-color: lavender;
     border-style: double;
@@ -225,7 +236,4 @@
     }*/
 }
 
-.bold {
-    font-weight: 700;
-}
 

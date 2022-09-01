@@ -1,0 +1,12 @@
+.Skills {
+    margin: 0;
+        display: flex;
+            justify-content: center;
+            flex-direction: column;
+}
+
+.Skillscontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
