@@ -156,6 +156,7 @@
     display: inline-block;
     font-weight: 900;
     font-size: 1.25rem;
+    margin: 0 1rem;
     
     background-color: var(--t-fg);
     border-color: lavender;

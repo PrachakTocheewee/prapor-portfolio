@@ -85,10 +85,18 @@ ul li {
 
 .sectionTitle {
   font-weight: 700;
+  color: pink;
+  background: #646cff;
+  height: 4rem;
+  border-style: double;
   font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-decoration: underline;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sectionSubTitle {
@@ -96,4 +104,5 @@ ul li {
   font-size: 1.25rem;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+  text-decoration: underline;
 }

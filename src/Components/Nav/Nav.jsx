@@ -16,19 +16,22 @@ function Nav() {
         Education
       </a>
 
+      <a className="link" href="#projects">
+        Project
+      </a>
+
+      <a className="link" href="#skills">
+        Skills
+      </a>
+
       <a className="link" href="#interests">
         Interests
       </a>
 
-      <a className="link" href="#projects">
-        Project
-      </a>
-      <a className="link" href="#skills">
-        Skills
-      </a>
       <a className="link" href="#contact">
         Contact
       </a>
+
       <div className="social">
         <a
           className="link"

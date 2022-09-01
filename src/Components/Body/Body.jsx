@@ -34,7 +34,7 @@ function Body() {
             </span>
           </div>
           <img className="myPhoto" src={Cvphoto} />
-          <div className="statement">
+          <div className="statement" id="about">
             <span className="bold">Hello!</span> I am Por and I fell in love
             with programming.
             <p>

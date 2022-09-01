@@ -8,7 +8,7 @@ function Projects() {
         <div className="sectionTitle" id="projects">
           My Projects
         </div>
-        <div className="sectionSubTitle">1.Find Your Hat</div>
+        <div className="sectionSubTitle">1. Find Your Hat</div>
         <p className="des">
           &nbsp;&nbsp;&nbsp;&nbsp;Interactive terminal game that the player has
           lost their hat and they must navigate back to it without falling in to
@@ -24,7 +24,7 @@ index.js"
           </a>
         </p>
 
-        <p className="sectionSubTitle">2.Jammming</p>
+        <p className="sectionSubTitle">2. Jammming</p>
         <p className="des"></p>
         <p className="des">
           &nbsp;&nbsp;&nbsp;&nbsp;React web application creating a playlist with
@@ -40,7 +40,7 @@ index.js"
           </a>
         </p>
 
-        <p className="sectionSubTitle">3.Infinity Health</p>
+        <p className="sectionSubTitle">3. Infinity Health</p>
         <p className="des">
           &nbsp;&nbsp;&nbsp;&nbsp;An exercise-tracker using MERN stack website
           which allows users to keep records of their excercise
@@ -57,7 +57,7 @@ index.js"
         </p>
 
         <p className="sectionSubTitle">
-          4.Forecasting Electricity Power Demand in Metropolitan and Provincial
+          4. Forecasting Electricity Power Demand in Metropolitan and Provincial
           Areas Using Decomposition Method with Seasonal ARIMA and Modified
           SARIMA Model
         </p>

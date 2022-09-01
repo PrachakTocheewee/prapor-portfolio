@@ -14,7 +14,6 @@ function Skills() {
             <li>Git & GitHub</li>
             <li>Data Analysis with SPSS, R , and Microsoft Excel</li>
             <li>JavaScript</li>
-            <li>C++</li>
             <li>ReactJS</li>
             <li>NodeJS</li>
             <li>Express</li>
