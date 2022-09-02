@@ -17,7 +17,7 @@ function Body() {
         <div className="gradient"></div>
         <div className="gradient2"></div>
         <div className="overlay">
-          <div className="subtitle">Junoir Software Developer</div>
+          <div className="subtitle">Junior Software Developer</div>
           <div className="title">Prachak Tocheewee (Por)</div>
           <div>
             <span className="role">

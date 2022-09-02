@@ -6,7 +6,7 @@ function About() {
   return (
     <section className="About">
       <h1>PRACHAK TOCHEEWEE (POR)</h1>
-      <h2>Junoir Software Developer</h2>
+      <h2>Junior Software Developer</h2>
       <div className="main">
         <h2>About Me</h2>
         <p>
